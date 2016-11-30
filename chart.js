@@ -35,13 +35,19 @@ var ctx = document.getElementById("myChart").getContext("2d");
         }
     }
 });*/
+var chartjsData = [];
+for (var i = 0; i < json.length; i++) {
+    chartjsData.push(data[i].);  
+}
+
 
 var scatterChart = new Chart(ctx, {
     type: 'line',
     data: {
         datasets: [{
-            label: 'Yer mum',
-            data: [{
+            label: 'Hitastig C°',
+            data: chartjsData
+            /*data: [{
                 x: -10,
                 y: 0
             }, {
@@ -58,7 +64,10 @@ var scatterChart = new Chart(ctx, {
             {
                 x: 8,
                 y: 11
-            }]
+            },{
+                x: 10,
+                y: 0
+            }]*/
         }]
     },
     options: {
