@@ -1,0 +1,30 @@
+table, td {
+    width: 50%;
+    border: 0px solid cornflowerblue;
+    color: black;
+    margin-right: 5%;
+}
+body{
+    background-color: aliceblue;
+}
+#container-current{
+    text-align: center;
+    font-weight: bolder;
+    text-align: center;
+}
+th #container-current{
+    text-align="center";
+    font-size: 26px;
+    column-span:all;
+    margin-right: 5%;
+}
+
+.linurit {
+	width: 400px;
+	height: 400px;
+    float:left;
+}
+.bil {
+    float:left;
+    width: 450px;
+}
